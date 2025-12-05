@@ -1,0 +1,154 @@
+/* Reset بسيط */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body عام */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Navigation */
+.header {
+  background: linear-gradient(90deg, #0077cc, #00b4d8);
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav ul {
+  list-style: none;
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.nav a:hover {
+  color: #ffdd00;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('assets/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 80px 20px;
+  color: #376e9e;
+}
+.hero__image {
+  width: 160px;
+  height: 160px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.hero__title {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+.hero__subtitle {
+  font-size: 1.3em;
+  opacity: 0.9;
+}
+
+/* Sections عامة */
+section {
+  padding: 60px 20px;
+  margin: 30px auto;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* About */
+.about h2 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+.about p {
+  margin-bottom: 15px;
+}
+
+/* Skills */
+.skills h2 {
+  color: #00b4d8;
+  margin-bottom: 20px;
+}
+.skills ul {
+  list-style: none;
+  text-align: center;
+}
+.skills li {
+  display: inline-block;
+  margin: 10px;
+  background: #e0f7fa;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.skills li:hover {
+  transform: scale(1.1);
+  background: #b2ebf2;
+}
+
+/* Projects */
+.projects h2 {
+  color: #009688;
+  margin-bottom: 20px;
+}
+.project-box {
+  width: 100%;
+  max-width: 600px;
+  height: 180px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: auto;
+  overflow-y: scroll;
+  background: #fafafa;
+}
+
+/* Contact */
+.contact h2 {
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+.contact a {
+  color: #0077cc;
+  text-decoration: none;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+.contact a:hover {
+  color: #ff5722;
+}
+.social {
+  margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #0077cc;
+  color: white;
+  margin-top: 40px;
+}
+.footer p {
+  margin: 0;
+}
